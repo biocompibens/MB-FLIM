@@ -11,7 +11,7 @@ This repository contains a Python package (`mbflim`) and scripts reproducing the
 To be completed.
 
 # Configuration
-Change the paths in `/mbflim/config.json` so that 'source_dpath' points to the downloaded data, `output_dpath` to an output directory and `tmp_dpath` to a directory for temporary files storage.
+Change the paths in `config.json` so that 'source_dpath' points to the downloaded data, `output_dpath` to an output directory and `tmp_dpath` to a directory for temporary files storage.
 
 # Usage
 `S0_create_files_info.py` should be executed first to generate `files.csv` files in each subdirectory from the `.tsv` files in `/file_lists`.
@@ -20,8 +20,8 @@ Mapping scripts should be executed in this order:
 - `M0_preprocess.py` with `study = 'MB-KCc-STn'`
 - `M0_preprocess.py` with `study = 'MB-KCc-KCn'`
 - `M1_generate_template.py`
-- `M2_map_subtypes.py`
-- `M3_generate_masks.py`
+- `M2_generate_masks.py`
+- `M3_map_subtypes.py`
 
 FLIM analysis scripts should be executed in this order:
 - to be completed
