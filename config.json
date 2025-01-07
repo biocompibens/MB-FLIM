@@ -1,0 +1,14 @@
+{
+    "paths": {
+        "source_dpath": "/projects/metaboloflim/MB-FLIM_data/",
+        "output_dpath": "/projects/metaboloflim/MB-FLIM_output/",
+        "tmp_dpath": "/localtmp/proussel/mbflim/"
+    },
+    "params": {
+        "spacing": [0.5, 0.5, 0.5],
+        "tight_crop": [[75.0, 75.0], [55.0, 50.0], [80.0, 70.0]],
+        "crop": [[80.0, 80.0], [60.0, 55.0], [85.0, 75.0]],
+        "bin_nb": 200,
+        "pt_nb": 100
+    }
+}

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mbflim"
+version = "0.1"
+authors = [
+  {name = "Philémon Roussel", email = "philemon.roussel@gmail.com"},
+]
+description = "Tools for the processing of intensity and FLIM images of Drosophila mushroom bodies"
+
+[tool.setuptools]
+packages = ["image", "flim"]
