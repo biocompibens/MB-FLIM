@@ -8,7 +8,9 @@ The data associated with this study are available in the [BioStudies database](h
 This repository contains a Python package (`mbflim`) and scripts reproducing the analyses of the article. Scripts are divided into mapping (using markers imaging data) and FLIM (using FLIM-marker imaging data and the output of mapping scripts).
 
 # Installation
-To be completed.
+`conda install nipype scipy matplotlib numpy pandas scikit-image seaborn==0.12.2 tqdm itk readlif statannotations nibabel bioformats_jar aicsimageio spyder-kernels --channel conda-forge --override-channels`
+`pip install antspyx opencv-python robustats`
+`pip install -e /path_to_repository/mbflim/mbflim/`
 
 # Configuration
 Change the paths in `config.json` so that 'source_dpath' points to the downloaded data, `output_dpath` to an output directory and `tmp_dpath` to a directory for temporary files storage.
@@ -23,5 +25,7 @@ Mapping scripts should be executed in this order:
 - `M2_generate_masks.py`
 - `M3_map_subtypes.py`
 
-FLIM analysis scripts should be executed in this order:
-- to be completed
+To process each FLIM dataset, analysis scripts in the corresponding directory should be executed in this order:
+- `F0_*.py`
+- `F1_*.py`
+- `F2_*.py` (if present)
