@@ -9,7 +9,9 @@ This repository contains a Python package (`mbflim`) and scripts reproducing the
 
 # Installation
 `conda install nipype scipy matplotlib numpy pandas scikit-image seaborn==0.12.2 tqdm itk readlif statannotations nibabel bioformats_jar aicsimageio spyder-kernels --channel conda-forge --override-channels`
+
 `pip install antspyx opencv-python robustats`
+
 `pip install -e /path_to_repository/mbflim/mbflim/`
 
 # Configuration
