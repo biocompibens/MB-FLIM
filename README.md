@@ -1,5 +1,5 @@
 # General
-Repository associated with the article "In vivo autofluorescence lifetime imaging of the Drosophila brain reveals metabolic shifts associated with memory formation"
+Repository associated with the article "In vivo autofluorescence lifetime imaging of the Drosophila brain captures metabolic shifts associated with memory formation"
 
 # Dataset
 The data associated with this study are available in the [BioStudies database](https://www.ebi.ac.uk/biostudies) under accession number S-BIAD1528 (DOI: [10.6019/S-BIAD1528](https://doi.org/10.6019/S-BIAD1528)). Files should be downloaded through FTP or HTTP to preserve the directory structure (`/FLIM-marker`, `/markers` and `/file_lists`).
